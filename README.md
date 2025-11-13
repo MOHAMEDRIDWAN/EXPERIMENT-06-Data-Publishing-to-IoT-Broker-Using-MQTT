@@ -70,7 +70,7 @@ Message 'Hello, MQTT!' published to topic 'test/topic'
 Broker Message: The message "Hello, MQTT!" will be published to the topic test/topic.
 
 ## Python Code 
-'''
+```
 import paho.mqtt.client as mqtt
 import ssl
 
@@ -90,15 +90,7 @@ client.publish(topic, message, retain=True)  # Retained = True ensures HiveMQ se
 client.disconnect()
 
 print(f"Message '{message}' published to topic '{topic}'")
-'''
-
-'''
-!pip intall paho-mqtt
-'''
-  
-
-
-
+```
 
  ## Simulation Screenshots:
 <img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/aa9e8552-eb24-44a4-950f-de0b5b6af69e" />
