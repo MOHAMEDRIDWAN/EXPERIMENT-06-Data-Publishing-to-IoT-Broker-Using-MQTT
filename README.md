@@ -93,7 +93,12 @@ print(f"Message '{message}' published to topic '{topic}'")
 ```
 
  ## Simulation Screenshots:
+
+### TERMINAL :
 <img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/aa9e8552-eb24-44a4-950f-de0b5b6af69e" />
+
+### HIVEMQ :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1e2331e-3a76-4d0e-8318-95ec5095c332" />
 
  ## Results:
 The data was successfully published to the MQTT broker. The experiment demonstrated how to use the MQTT protocol to transfer data to an IoT broker, enabling remote communication between devices or applications. The message was confirmed to be received by the topic, and this communication can be extended to more complex IoT systems.
